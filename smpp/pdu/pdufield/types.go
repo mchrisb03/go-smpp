@@ -46,8 +46,6 @@ const (
 	SourceAddrTON        Name = "source_addr_ton"
 	SystemID             Name = "system_id"
 	SystemType           Name = "system_type"
-	UDHLength            Name = "gsm_sms_ud.udh.len"
-	GSMUserData          Name = "gsm_sms_ud.udh"
 	UnsuccessSme         Name = "unsuccess_sme"
 	ValidityPeriod       Name = "validity_period"
 )
