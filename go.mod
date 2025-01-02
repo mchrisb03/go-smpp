@@ -1,6 +1,6 @@
-module github.com/fiorix/go-smpp/v2
+module github.com/mchrisb03/go-smpp/v2
 
-go 1.15
+go 1.22
 
 require (
 	github.com/fiorix/go-smpp v0.0.0-20210403173735-2894b96e70ba
