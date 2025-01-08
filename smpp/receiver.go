@@ -162,10 +162,6 @@ loop:
 			break
 		}
 
-		if p == nil {
-			break
-		}
-
 		if p.Header().ID == pdu.DeliverSMID && autoRespondDeliver { // Send DeliverSMResp
 			pResp := pdu.NewDeliverSMRespSeq(p.Header().Seq)
 			r.cl.Write(pResp)

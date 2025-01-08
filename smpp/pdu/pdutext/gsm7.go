@@ -5,7 +5,7 @@
 package pdutext
 
 import (
-	"github.com/mchrisb03/go-smpp/smpp/encoding"
+	"github.com/fiorix/go-smpp/smpp/encoding"
 	"golang.org/x/text/transform"
 )
 
